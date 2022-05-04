@@ -185,6 +185,10 @@ INPUT C:\Users\hadri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tf
 INPUT C:\Users\hadri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT C:\Users\hadri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\hadri\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\report.toc
+INPUT report.toc
+INPUT report.toc
+OUTPUT report.toc
 INPUT .\content\introduction.tex
 INPUT content\introduction.tex
 INPUT .\content\introduction.tex
