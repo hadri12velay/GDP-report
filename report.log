@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.30)  4 MAY 2022 23:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.10.30)  4 MAY 2022 23:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -613,22 +613,22 @@ Underfull \hbox (badness 1577) in paragraph at lines 72--73
 
 
 ]
-File: images/crest.jpg Graphic file (type jpg)
-<use images/crest.jpg>
-Package pdftex.def Info: images/crest.jpg  used on input line 29.
-(pdftex.def)             Requested size: 151.51247pt x 256.82274pt.
+File: images/placeholder.jpg Graphic file (type jpg)
+<use images/placeholder.jpg>
+Package pdftex.def Info: images/placeholder.jpg  used on input line 29.
+(pdftex.def)             Requested size: 505.03642pt x 314.62459pt.
 ) [5] (c:/Users/Hadri1/Documents/GitHub/GDP-report/content/lorem.tex
-File: images/crest.jpg Graphic file (type jpg)
-<use images/crest.jpg>
-Package pdftex.def Info: images/crest.jpg  used on input line 29.
-(pdftex.def)             Requested size: 315.8288pt x 535.36931pt.
+File: images/placeholder.jpg Graphic file (type jpg)
+<use images/placeholder.jpg>
+Package pdftex.def Info: images/placeholder.jpg  used on input line 29.
+(pdftex.def)             Requested size: 1052.75198pt x 655.87646pt.
  [6
 
 ] [7]) [8] (c:/Users/Hadri1/Documents/GitHub/GDP-report/content/lorem.tex
-File: images/crest.jpg Graphic file (type jpg)
-<use images/crest.jpg>
-Package pdftex.def Info: images/crest.jpg  used on input line 29.
-(pdftex.def)             Requested size: 151.51247pt x 256.82274pt.
+File: images/placeholder.jpg Graphic file (type jpg)
+<use images/placeholder.jpg>
+Package pdftex.def Info: images/placeholder.jpg  used on input line 29.
+(pdftex.def)             Requested size: 505.03642pt x 314.62459pt.
  [9
 
 ]) [10
@@ -641,13 +641,13 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  2423 strings out of 479497
  35788 string characters out of 5876370
- 351707 words of memory out of 5000000
+ 351715 words of memory out of 5000000
  19402 multiletter control sequences out of 15000+600000
  538775 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  66i,14n,72p,1111b,315s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb>
-Output written on c:/Users/Hadri1/Documents/GitHub/GDP-report/report.pdf (10 pages, 332623 bytes).
+Output written on c:/Users/Hadri1/Documents/GitHub/GDP-report/report.pdf (10 pages, 332625 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  42 compressed objects within 1 object stream
