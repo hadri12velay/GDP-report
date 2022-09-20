@@ -2,30 +2,47 @@
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage{graphicx}
-\usepackage{xcolor}
+\usepackage[table,xcdraw]{xcolor}
 \usepackage{multicol}
+\usepackage{multirow} % weird table stuff
 \usepackage{array}
+\usepackage{wrapfig} % package for wrapping figures
+\usepackage{float} % adds 'H' identifier for figures etc
+\usepackage{setspace} % helps with multiple column table of contents idk why
+\usepackage{soul} % to highlight stuff with \hl{}
+\usepackage[hyphens]{url} % Used to make urls breakable and breaks them at a hyphern
+\usepackage[hidelinks]{hyperref} % Allows for use of urls and related characters in references, doesn't put a box around links
+\hypersetup{breaklinks=true} % Allows for links to be broken
+\usepackage{eso-pic} % for front page top right logo
 
+\usepackage[format=plain,
+            labelfont={bf},
+            textfont=it,
+            justification=centering]{caption} % Package for managing captions. Makes the label bold and all the caption italic and centered
+
+\parskip=8pt % Sets the paragraph spacing between paras
+\parindent=0pt % disables indentation
 
 \geometry{
     a3paper,
     twocolumn,
     landscape,
-    hmargin={2.5cm, 2.5cm},
+    hmargin={2cm, 2cm},
     vmargin={2cm,2cm},
     footskip=0.75cm,
     headsep=0.25cm
 }
 
-\setlength{\columnseprule}{0.4pt}
-\setlength{\columnsep}{1.5cm}
+\setlength{\columnseprule}{0pt}
+\setlength{\columnsep}{1.3cm} % separation in between columns
 
+\newcommand{\CellColor}{a7c3d4} % color of tables (Hex)
 
 %---------------------------------------------------------------------------------
 %---------------------------------------------------------------------------------
 
-\title{GDP report}
-\date{12\textsuperscript{th} of May 2022}
+\title{GDP report} % disregard
+\date{12\textsuperscript{th} of May 2022} % disregard
 
 %---------------------------------------------------------------------------------
 %---------------------------------------------------------------------------------
@@ -36,62 +53,87 @@
 
 \input{content/titlepage.tex}
 
-\tableofcontents
+%\tableofcontents
+\begin{multicols}{2}
+\setstretch{1}{
+    \parskip=0em
+    \setlength{\columnseprule}{0.4pt}   % Puts lines between the columns to make it easy to read (can be removed)
+    \tableofcontents
+    }
+\end{multicols}
 \newpage
+
+\input{content/acknowledgments.tex}
 
 \section{Introduction}
 \input{content/1.introduction.tex}
 
-\section{Design Brief and Specifications}
-\input{content/2.designSpecs.tex}
-
 \section{Project Aims and Objectives}
-\input{content/3.projectAims.tex}
+\input{content/2.projectAims.tex}
 
-\section{Theory}
-
-
-\section{Sustainability}
-
+\section{Design Brief and Specifications}
+\input{content/3.designSpecs.tex}
 
 \section{Project Management and Methodology}
+\input{content/5.projectManagement.tex}
 
+\section{DWFTTW Working Principle}
+\input{content/4.theory.tex}
 
-\section{Design Process}
+\section{Structure}
+\input{content/8.structure.tex}
 
+\section{Drivetrain}
+\input{content/9.drivetrain.tex}
 
-\section{Manufacturing}
+\section{Pitch Control Mechanism and Hub}
+\input{content/7.hub.tex}
 
+\section{Propeller}
+\input{content/6.propeller.tex}
 
-\section{Final Design}
+%\cleardoublepage
+\section{Final Design Proposal}
+\input{content/9.5.designProposal.tex}
 
-
-\section{Experimental Design}
-
+\section{Experimental Testing and CFD Methodology}
+\input{content/10.experiment.tex}
 
 \section{Results}
-
+\input{content/11.results.tex}
 
 \section{Project Review}
-
+\input{content/12.projectReview.tex}
 
 \section{Conclusions}
+\input{content/13.conclusions.tex}
 
 
 
 
 
+%\section{Placeholder Section}
+%\input{content/lorem.tex}
 
-\section{Placeholder Section}
-\input{content/lorem.tex}
+%\onecolumn
+%\section{One column Placeholder Section}
+%\input{content/lorem.tex}
+%\twocolumn
 
-\onecolumn
-\section{One column Placeholder Section}
-\input{content/lorem.tex}
-\twocolumn
+%\section{Placeholder Section}
+%\input{content/lorem.tex}
 
-\section{Placeholder Section}
-\input{content/lorem.tex}
+\bibliography{bibliography}
+\bibliographystyle{IEEEtran}
+
+% \begin{multicols}{2}
+%     \setlength{\columnseprule}{0.4pt}
+%     \setstretch{1}{
+%     \parskip=0em
+%     \bibliography{bibliography}
+%     }
+% \end{multicols}
+
 
 \end{document}
     

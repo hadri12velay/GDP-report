@@ -1,0 +1,17 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[H]
+\caption{Gearbox transmission types}
+\label{tab:gearboxComp}
+\centering
+\begin{tabular}{|
+>{\columncolor[HTML]{\CellColor}}l |p{6cm}|p{6cm}|}
+\hline
+\textbf{Gear type}       & \cellcolor[HTML]{\CellColor}\textbf{Advantage}                                                               & \cellcolor[HTML]{\CellColor}\textbf{Disadvantage}                                                          \\ \hline
+\textbf{Helical}         & \begin{tabular}[c]{@{}l@{}}Runs smoothly.\\ Can be mounted parallel and straight.\end{tabular}           & \begin{tabular}[c]{@{}l@{}}Must select same handed gears.\\ Power losses due to slippage.\end{tabular} \\ \hline
+\textbf{Bevel}           & \begin{tabular}[c]{@{}l@{}}Good slipping resistance.\\ Can easily change a 90 degree angle.\end{tabular} & Prone to noise effects.                                                                                \\ \hline
+\textbf{Rack and pinion} & Straight line pitch circle.                                                                              & Rotary to straight line.                                                                               \\ \hline
+\textbf{Spiral bevel}    & \begin{tabular}[c]{@{}l@{}}Good noise resistance.\\ Can easily change a 90 degree angle.\end{tabular}    & Prone to slipping.                                                                                     \\ \hline
+\end{tabular}
+\end{table}

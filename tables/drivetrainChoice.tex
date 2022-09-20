@@ -1,0 +1,19 @@
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[!htb]
+\caption{Drivetrain system choice considerations}
+\label{tab:drivetrainChoices}
+\centering
+\begin{tabular}{|
+>{\columncolor[HTML]{\CellColor}}l |p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\textbf{Type of drivetrain}      & \cellcolor[HTML]{\CellColor}\textbf{Shaft}                                                                                                                       & \cellcolor[HTML]{\CellColor}\textbf{Chain}                                                                     & \cellcolor[HTML]{\CellColor}\textbf{Belt}                                                                                                                    \\ \hline
+\textbf{Cost   considerations}   & Shafts come with a cost due to the   amount of material used, often hardened to withstand high torques. Would   require two gearboxes which increases the cost & Chain drive components are cheap with a large range of gear ratios and chain sizes.                        & Belt components are more expensive than chain components. The length of the belt is unchangeable once purchased, assuming the right length can be found. \\ \hline
+\textbf{Availability   of parts} & Readily available, variety of   sizes. Limited gearbox options online however                                                                                & Easily acquired, especially for small chain pitches for compact chain drives not coping with high torques. & Rarer than chain parts, difficult to acquire correct sizes.                                                                                              \\ \hline
+\textbf{Complexity}              & Simple with minimal interacting   parts                                                                                                                      & Medium complexity, would require tensioner mechanism.                                                      & Would require specialist cogs which run the belt, and a way of applying tension.                                                                         \\ \hline
+\textbf{Efficiency}              & High due to small number of   interacting parts, namely 2 bevel gears and shaft bearings on the gearbox                                                      & Losses due to friction between the sprockets and chain.                                                    & Losses due to the elasticity of the belt.                                                                                                                \\ \hline
+\textbf{Modularity}              & Only allows for one gear ratio to   be used                                                                                                                  & Allows for sprockets to be changed to alter the gear ratio between tests.                                  & Difficult to adjust or change gear ratios due to high tension.                                                                                           \\ \hline
+\textbf{Potential   problems}    & Bevel gears would wear easily if   the shafts were not perfectly aligned, any vibrations could lead to failure   and are difficult to change                 & Vibrations can occur leading to inefficiency and the chain detaching from sprockets during testing.        & The length of the belt is unchangeable once purchased, assuming the right length can be found.                                                           \\ \hline
+\end{tabular}
+\end{table}
